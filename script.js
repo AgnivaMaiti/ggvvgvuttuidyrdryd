@@ -4,7 +4,7 @@ function login(answer) {
     document.getElementById('message').style.display = 'block';
     showMessageSequence();
   } else {
-    alert("Try again, you silly! You know you're 'A Worm 🐛'!");
+    alert("Try again, you silly!");
   }
 }
 
