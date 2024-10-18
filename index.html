@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Anushka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="login">
+    <h2>Who are you?</h2>
+    <button onclick="login('Anushka <3')">Anushka <3</button>
+    <button onclick="login('Miss Gorgeous')">Miss Gorgeous</button>
+    <button onclick="login('A Worm 🐛')">A Worm 🐛</button>
+    <button onclick="login('Ogni\'s date')">Ogni's date</button>
+  </div>
+
+  <div class="container" id="message" style="display: none;">
+    <p id="messageText">Ogni thinks you're cute</p>
+  </div>
+
+  <div class="container" id="poemPage" style="display: none;">
+    <h2>A Poem for You</h2>
+    <p>
+      There are days<br>
+      When daylight feels too bright,<br>
+      And the shadows of the past<br>
+      Engulf my heart alive.<br>
+      There are nights<br>
+      When the guilt eats me away,<br>
+      Nibbling at every mistake,<br>
+      Making me doubt my way—<br>
+      Of loving,<br>
+      Of living.<br>
+      You can hurt me;<br>
+      I don’t mind the pain,<br>
+      But don’t make promises<br>
+      That will be in vain.<br>
+      Do not betray<br>
+      The heart that beats for you.<br>
+      I don’t need you to fix me,<br>
+      I don’t want you to heal me.<br>
+      Just be there<br>
+      While I fix this broken heart.<br>
+      I need nothing else,<br>
+      Except you.<br>
+    </p>
+    <div class="question">
+      <h3>So, is it a yes?</h3>
+      <button onclick="showYes()">YESSSS</button>
+      <button onclick="showNo()">NO</button>
+    </div>
+  </div>
+
+  <div class="container" id="finalMessage" style="display: none;">
+    <h2>YAY! She said YESSSS! 🎉</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

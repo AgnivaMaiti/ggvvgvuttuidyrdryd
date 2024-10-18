@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f7e7d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px; /* Added padding */
+}
+
+.container {
+  text-align: center;
+  padding: 20px; /* Added padding for extra spacing */
+  max-width: 600px; /* Restricts content width */
+  margin: 0 auto; /* Centering the container */
+}
+
+h2, h3 {
+  color: #b45c3d;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #b45c3d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f4c2b;
+}
+
+#messageText {
+  font-size: 24px;
+  color: #b45c3d;
+  margin-top: 20px;
+}
+
+.poem-page p {
+  font-size: 18px;
+  color: #333;
+}
+
+.poem-page .question {
+  margin-top: 20px;
+}
+
+#finalMessage h2 {
+  color: green;
+}
