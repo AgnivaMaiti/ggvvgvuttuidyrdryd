@@ -1,5 +1,5 @@
 function login(answer) {
-  if (answer === 'A Worm 🐛') {
+  if (answer === 'All of the above') {
     document.getElementById('login').style.display = 'none';
     document.getElementById('message').style.display = 'block';
     showMessageSequence();
